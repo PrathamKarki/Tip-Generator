@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tip Generator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="title">Tip Generator</h1>
+            <p class="sub-title">Enter your bill amount and percentage and  pay!</p>
+            <label for="billAmount">Bill Amount:</label>
+            <input type="number" id="billAmount" name="billAmount" placeholder="Enter the Bill Amount." >
+            <label for="tip_percentage">Tip Percentage:</label>
+            <input type="number" id="tip_percentage" class="tip_percentage" name="tip_percentage" placeholder="Enter your tip Percentage.">
+            <div class="display-result">
+                <p class="amount">Amount: </span>
+                <p class="tip_amount">Tip Amount: </span>
+                <p class="total">Total Amount: </span>
+            </div>
+            <button id="btn" class="btn calculatre">Calculate</button>
+        </div>
+    </main>    
+
+<script src= "./script.js"></script>
+</body>
+</html>
