@@ -70,11 +70,13 @@ body{
 }
 
 .btn{
+    display: inline-block;
     background-color: #e63946;
     border: none;
     width: 200px;
     padding: 8px 12px;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .btn:hover{
@@ -83,5 +85,25 @@ body{
 }
 
 .btn:active{
+    transform: translateY(2px);
+}
+
+.reset-btn{
+    display: inline-block;
+    background-color: #e63946;
+    border: none;
+    width: 200px;
+    padding: 8px 12px;
+    color: white;
+
+}
+
+
+.reset-btn:hover{
+    background-color: white;
+    color: #e63946;
+}
+
+.reset-btn:active{
     transform: translateY(2px);
 }
